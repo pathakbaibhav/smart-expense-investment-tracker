@@ -1,0 +1,33 @@
+# --- Financial data: never commit ---
+data/private/
+*.pdf
+*.csv
+*.xls
+*.xlsx
+!**/fixtures/**/*.csv
+!**/fixtures/**/*.pdf
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node ---
+node_modules/
+.next/
+dist/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
